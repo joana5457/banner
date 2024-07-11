@@ -1,0 +1,141 @@
+body{
+    width: 600px;
+    height: 600px;
+    padding:10px;
+ margin: auto;
+    justify-content: center;
+    align-items: center;
+ 
+}
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: rgb(255, 255, 255); font-family: system-ui, 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding-right: 15px; padding-left:15px;
+    text-decoration: none;
+    transition: all;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center
+    color var(--color-primary);
+}
+
+.navdiv{
+    display:flex; align-items:center; justify-content:space-between;
+}
+
+.logo a{
+    font-size: 35px; font-weight: 600; color: rgb(213, 213, 213);
+}
+
+
+
+li{
+    list-style:none; display: inline-block;
+    position: relative;
+}
+
+li a{
+display: flex;
+align-items: center;
+justify-content:space-between;
+padding:10px 0 10px 30px;
+transition: 0.3s;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+#container div{
+    height: 370px;
+    width: 10000px;
+    background: #ffffff;
+    margin: 20px;
+}
+
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+#container1 div{
+    height: 370px;
+    width: 600px;
+    background: #ffffff;
+    margin: 10px;
+}
+
+#footer{
+    position:relative;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar{
+    padding:0;
+}
+
+.navbar{
+    background-color: #ffffff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    position: relative;
+}
+
+nav a,
+nav a:focus{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+    white-space: nowrap;
+    transition: 0.3s;
+} */
+
